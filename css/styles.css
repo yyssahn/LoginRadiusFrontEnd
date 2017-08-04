@@ -15,13 +15,13 @@ body h2{
     color:#4A4A4A;
 }
 body h4{
-    font-size:15px;
+    font-size:16px;
     color:#4A4A4A;
 }
 
 
 .wrapper {
-    width:90%;
+    width:87.5%;
     margin:auto;
     
 }
@@ -58,17 +58,14 @@ nav img{
     text-align: center;
     display:flex;
     flex-direction: column;
-    padding-top:60px;
+    padding-top:50px;
 }
 .banner h2, .banner p {
     color:white;
 }
 
 .banner p{
-    margin-top:15px;
-    font-size:12px;
-    padding:0 20px;
-    
+    padding:0 20px;    
 }
 
 .broken {
@@ -99,20 +96,20 @@ nav img{
 }
 .content-items h4 {
     margin-top:20px;
-    
+    font-weight:700;
     color:#0076BD;
     
 }
 
+
 .blue-start{
     background-color:#0076BD;
     color:white;
-    padding-top:20px;
-    padding-bottom:30px;
+    padding: 20px 0px
 }
 .section-title{
     text-align: center;
-    font-size:18px;
+    font-size:17px;
     margin-bottom:10px;
 }
 .blue-start h4{
@@ -133,12 +130,13 @@ nav img{
 }
 .security-section{
     background-color:#F8F8F8;
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top:30px;
+    padding-bottom:30px;
     
 }
 .center-item{
     text-align: center;
+    padding: 10px 0;
 }
 .blue-background{
     background-color:#0076BD;
@@ -146,9 +144,7 @@ nav img{
 }
 
 .contact-form{
-    padding-top:40px;
-    padding-bottom:30px;
-    
+    padding:30px 0px;
 }
 .contact-form p, .contact-form h2 {
     color:white;
@@ -202,7 +198,9 @@ footer p, footer h4{
     width:100%;
     display:flex;
     margin-bottom:20px;
+    
 }
+
 .social-images i{
     flex:1;
     margin-left:20px;
@@ -225,13 +223,15 @@ footer p, footer h4{
     min-height:40px;
 }
 .lr-navbar img{
-    width:60px;
+    width:70px;
     margin-top:5px;
-    
+    margin-left:-10px;
+   
 }
 .lr-navbar button{
     margin:0px 15px;
     color:lightblue;
+    margin-right:-10px;
 }
 .navbar-nav {
     margin: 0px 0px;
@@ -269,13 +269,15 @@ footer p, footer h4{
 }
 
  .copyright-texts .bottom-link {
-    font-size:16px;
+    font-size:14px;
 }
-@media (min-width:321px){
+
+@media (min-width:1440px){
     body{
        font-family: 'Open Sans', sans-serif;
 
     }
+    
     .wrapper{
         width:80%;
     }
@@ -353,6 +355,7 @@ footer p, footer h4{
     .flex-wrapper{
         display:flex;
         align-items: center;
+        
         height:100%;
     }
     .connected{
@@ -374,13 +377,15 @@ footer p, footer h4{
     .content-item h4{
         margin-top:30px;
         margin-bottom:30px;
-        
+        font-weight:400;   
+    
     }
     .blue-start{
         height:520px;
     }
     .blue-start .flex-wrapper{
         align-items: flex-start;
+        
         justify-content: space-between;
     }
     .blue-start .section-title {
@@ -414,6 +419,16 @@ footer p, footer h4{
     .profile-building .center-item{
         width:30%;
     }
+    .center-items{
+        display:flex;
+        margin:auto;
+        width:100%;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .center-item h4{
+        margin-bottom: 20px;
+    }
     .security-section{
         height:310px;
     }
@@ -424,6 +439,17 @@ footer p, footer h4{
     .security-section h4{
         font-size:35px;
         margin-bottom:15px;
+    }
+    .contact-form{
+        padding: 50px 0;
+    }
+    .contact-form h2{
+        font-size:45px;
+        font-weight:100;
+    }
+    .contact-form p{
+        font-size:23px;
+        font-weight:100;
     }
     .contact-form .wrapper{
         width:55%;
@@ -450,14 +476,13 @@ footer p, footer h4{
         display:block;
         width:90%;
         margin:auto;
-        padding-top: 50px;
-        padding-bottom:75px;
+        padding: 30px 0;
     }
     .navigation-row{
         display:flex;
         align-items: flex-start;
         justify-content:space-between;
-        
+        margin-bottom:40px;
     }
     .navigation-column{
         width:300px;
@@ -473,7 +498,7 @@ footer p, footer h4{
         padding-left:0;
     }
     .navigation-column ul>li{
-        margin-bottom:15px;
+        margin-bottom:10px;
         font-size:14px;
     }
     .footer-nav{
@@ -481,7 +506,7 @@ footer p, footer h4{
     }
     .copyright-section {
         text-align:center;
-        margin-top: 100px;
+        margin-top: 150px;
     }
     .copyright-texts{
         margin-top:40px;
@@ -492,6 +517,9 @@ footer p, footer h4{
         margin-left:10px;
         border-left:1px solid white;
         padding-left:10px;
+    }
+    .copyright-texts p {
+        font-size:12px;
     }
     
 }
